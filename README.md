@@ -145,6 +145,3 @@ Create a Git tag (e.g., `v1.2.0`) and attach the compiled `.xlam` file to a GitH
 - **Macros blocked**: check Excel Trust Center macro settings.
 - **OnKey calls the wrong workbook**: the bindings target `ThisWorkbook.Name` (the add-in). If you see “...” or truncated macro names inside `modBindings`, fix those strings before building.
 
-## License
-
-Choose a license before making the repo public (MIT is common for small utilities).
